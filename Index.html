@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ComicVerse</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                ComicVerse
+            </div>
+
+            <div class="nav-links">
+                <a href="Index.html">Home</a>
+                <a href="Comics.html">Comics</a>
+            </div>
+
+           <div class="search">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search comics..."
+                >
+
+                <button
+                    id="searchButton">
+                    🔍
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="/images/fan-art-comic-style-multiple-spider-man-landscape-background-254377.jpg" alt="Comic1">
+            <img src="/images/images (1).jpg" alt="Comic2">
+            <img src="/images/gallerychar_1900x900_justiceleague_52ab8e54d0a6f0.42170553.jpg" alt="Comic3">
+            <img src="/images/images 1234.jpg" alt="Comic4">
+            
+        </div>
+        <button class="prev">prev</button>
+        <button class="next">next</button>
+
+    </div>
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome to <span class="highlight">ComicVerse</span></h1>
+            <h2>Hello COMIC lovers!!!</h2>
+            <br>
+
+
+            <p>
+                Explore comics, discover new stories
+                and find your next favorite series.
+            </p>
+
+            <button class="explore-btn">
+                Read Comics & Enjoy...
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <h2>Featured Comics</h2>
+
+      
+        <div class="comic-container" id="comicContainer">
+
+        </div>
+
+    </section>
+
+
+    
+
+
+<footer>
+
+    <p>© 2026 ComicVerse</p>
+    <p>Thank you for visiting here!!!</p>
+
+    <hr>
+
+    <h2>Contact Us</h2>
+
+    <form action="/contact" method="POST">
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <br><br>
+
+        <label>Message:</label>
+        <br>
+
+        <textarea
+            name="message"
+            rows="5"
+            cols="40"
+            required>
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</footer>
+
+
+
+
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
